@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Surya weds Jothika · Wedding Invitation</title>
+<title>Suriya weds Jyothika · Wedding Invitation</title>
 <meta name="theme-color" content="#6a3517">
-<meta name="description" content="With all our hearts, you are invited to celebrate with us. Surya weds Jothika · 18 February 2027 · Dharapuram">
+<meta name="description" content="With all our hearts, you are invited to celebrate with us. Suriya weds Jyothika · 12 December 2027 · Chennai (sample venue)">
 <!-- WhatsApp / social link preview: replace https://YOUR-SITE-URL/ with your real site address (keep the trailing slash) -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Surya weds Jothika">
-<meta property="og:description" content="With all our hearts, you are invited to celebrate with us · 18 February 2027 · Dharapuram">
-<meta property="og:image" content="https://mkavin01.github.io/Surya_lavanya_kalyanam/preview.jpg">
+<meta property="og:title" content="Suriya weds Jyothika">
+<meta property="og:description" content="With all our hearts, you are invited to celebrate with us · 12 December 2027 · Chennai (sample venue)">
+<meta property="og:image" content="https://mkavin01.github.io/suriya_jyothika_kalyanam/preview.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:url" content="https://mkavin01.github.io/Surya_lavanya_kalyanam/">
+<meta property="og:url" content="https://mkavin01.github.io/suriya_jyothika_kalyanam/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -94,6 +94,11 @@ body.lock{overflow:hidden;height:100dvh}
 .cdnote{margin-top:12px;font-style:italic;font-size:17px;opacity:0;transition:opacity 1.2s .8s}.cdnote.show{opacity:1}
 
 /* photos */
+.photo-group{margin-top:20px}
+.photo-group h3{font-family:'Playfair Display',serif;font-weight:400;font-size:23px;color:var(--maroon);margin:0 0 10px}
+.photo-group .frame{width:100%;aspect-ratio:4/5;border-radius:150px 150px 16px 16px}
+.photo-group.memories .frame{aspect-ratio:16/10;border-radius:18px}
+.photo-group .cap{text-align:center}
 .duo{display:flex;gap:12px;margin-top:6px}
 .pf{flex:1}
 .frame{position:relative;aspect-ratio:3/4;border-radius:999px 999px 14px 14px;overflow:hidden;border:2px solid var(--gold);background:linear-gradient(#fbf3e2,#f1dfc0);box-shadow:0 8px 20px rgba(106,53,23,.2)}
@@ -291,8 +296,8 @@ input[type=text]:focus{border-color:#c56f4e}
   <div class="gtxt">
     <div class="a">With all our hearts,</div>
     <div class="b">you are invited to celebrate with us</div>
-    <div class="n"><span>Surya &amp; Jothika</span></div>
-    <div class="d">18 · 02 · 2027 &nbsp;✦&nbsp; DHARAPURAM</div>
+    <div class="n"><span>Suriya &amp; Jyothika</span></div>
+    <div class="d">12 · 12 · 2027 &nbsp;✦&nbsp; CHENNAI</div>
     <button class="gbtn" id="openBtn">Open Invitation</button>
   </div>
 </div>
@@ -300,9 +305,9 @@ input[type=text]:focus{border-color:#c56f4e}
 <!-- HERO -->
 <section class="hero" id="hero">
   <div class="h1">Together with our families,<br>we invite you to celebrate our forever</div>
-  <div class="nm h2"><span class="shine">Surya</span></div>
+  <div class="nm h2"><span class="shine">Suriya</span></div>
   <div class="h3"><span class="shine">Weds</span></div>
-  <div class="nm h4"><span class="shine">Jothika</span></div>
+  <div class="nm h4"><span class="shine">Jyothika</span></div>
   <div class="h6">⌄</div>
 </section>
 
@@ -316,14 +321,14 @@ input[type=text]:focus{border-color:#c56f4e}
     <p>With hearts full of joy, we request the honour of your presence at the wedding of</p>
     <div class="fam">
       <div class="role">The Groom</div>
-      <div class="who">Surya</div>
-      <div class="par">Son of Mr. V. Murugesh<br>&amp; Mrs. M. Vijayalakshmi</div>
+      <div class="who">Suriya</div>
+      <div class="par">Son of Mr. Sivakumar<br>&amp; Mrs. Lakshmi</div>
     </div>
     <div class="and">&amp;</div>
     <div class="fam" style="margin-top:6px">
       <div class="role">The Bride</div>
-      <div class="who">Jothika</div>
-      <div class="par">Daughter of Late Mr. A. Govindaraj<br>&amp; Mrs. G. Lakshmi</div>
+      <div class="who">Jyothika</div>
+      <div class="par">Daughter of Mr. Chander Sadanah<br>&amp; Mrs. Seema Sadanah</div>
     </div>
   </section>
 
@@ -332,22 +337,33 @@ input[type=text]:focus{border-color:#c56f4e}
     <div class="sm">Mark Your Calendar</div>
     <h2>Save the Date</h2>
     <div class="card" id="card">
-      <div class="dbox"><span>Thursday</span><b>18</b><span>February 2027</span><em>Surya &amp; Jothika</em></div>
+      <div class="dbox"><span>Sunday</span><b>18</b><span>December 2027</span><em>Suriya &amp; Jyothika</em></div>
       <canvas id="foil"></canvas>
     </div>
     <div class="cd" id="cd"><div><b id="cD">0</b><small>DAYS</small></div><div><b id="cH">0</b><small>HOURS</small></div><div><b id="cM">0</b><small>MIN</small></div><div><b id="cS">0</b><small>SEC</small></div></div>
   </section>
 
-  <!-- PHOTOS -->
+  <!-- INDIVIDUAL & TOGETHER PHOTO SLIDESHOWS -->
   <section class="sec">
-    <div class="sm">Two Hearts, One Journey</div>
-    <h2>The Couple</h2>
-    <div class="duo">
-      <div class="pf"><div class="frame" id="gF"></div><div class="cap">Surya<small>Groom</small></div></div>
-      <div class="pf"><div class="frame" id="bF"></div><div class="cap">Jothika<small>Bride</small></div></div>
+    <div class="sm">The Groom</div>
+    <h2>Suriya</h2>
+    <div class="photo-group">
+      <div class="frame" id="gF"></div>
+      <div class="cap">Groom <small>Three-photo slideshow</small></div>
+    </div>
+    <div class="photo-group">
+      <div class="sm">The Bride</div>
+      <h2>Jyothika</h2>
+      <div class="frame" id="bF"></div>
+      <div class="cap">Bride <small>Three-photo slideshow</small></div>
+    </div>
+    <div class="photo-group memories">
+      <div class="sm">Together, Always</div>
+      <h2>Our Memories</h2>
+      <div class="frame" id="mF"></div>
+      <div class="cap">Suriya &amp; Jyothika <small>Five-photo memories slideshow</small></div>
     </div>
   </section>
-
 
   <section class="sec">
     <div class="sm">Join the Celebrations</div>
@@ -355,21 +371,21 @@ input[type=text]:focus{border-color:#c56f4e}
     <div class="ev">
       <div class="k">The Evening Before</div>
       <h3>Wedding Reception</h3>
-      <div class="dt">Wednesday, 17 February 2027</div>
+      <div class="dt">Saturday, 11 December 2027</div>
       <div class="tm">6:00 PM – 9:00 PM</div>
-      <div class="pl">Malli Resort, Kondarasampalayam,<br>Udumalai Road, Dharapuram</div>
-      <a class="map" target="_blank" rel="noopener" href="https://maps.app.goo.gl/LWWwTcvPVNpxcMQ37?g_st=ic"></a>
-      <div class="btns"><a class="btn f" target="_blank" rel="noopener" href="https://maps.app.goo.gl/LWWwTcvPVNpxcMQ37?g_st=ic">Get Directions</a><button class="btn" data-ev="rec">Add to Calendar</button></div>
+      <div class="pl">Grand Lotus Convention Hall,<br>Chennai (sample venue)</div>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Grand+Lotus+Convention+Hall+Chennai"></a>
+      <div class="btns"><a class="btn f" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Grand+Lotus+Convention+Hall+Chennai">Get Directions</a><button class="btn" data-ev="rec">Add to Calendar</button></div>
       <a class="gl" target="_blank" rel="noopener" data-g="rec">or add to Google Calendar</a>
     </div>
     <div class="ev">
       <div class="k">The Auspicious Day</div>
       <h3>Wedding Ceremony</h3>
-      <div class="dt">Thursday, 18 February 2027</div>
+      <div class="dt">Sunday, 12 December 2027</div>
       <div class="tm">7:00 AM – 9:00 AM</div>
-      <div class="pl">Sri Subramaniya Swamy Temple,<br>Dharapuram</div>
-      <a class="map" target="_blank" rel="noopener" href="https://maps.app.goo.gl/JFoAHA1eZPXEhNbE8?g_st=ic"></a>
-      <div class="btns"><a class="btn f" target="_blank" rel="noopener" href="https://maps.app.goo.gl/JFoAHA1eZPXEhNbE8?g_st=ic">Get Directions</a><button class="btn" data-ev="wed">Add to Calendar</button></div>
+      <div class="pl">Sri Venkateswara Kalyana Mandapam,<br>Chennai (sample venue)</div>
+      <a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sri+Venkateswara+Kalyana+Mandapam+Chennai"></a>
+      <div class="btns"><a class="btn f" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sri+Venkateswara+Kalyana+Mandapam+Chennai">Get Directions</a><button class="btn" data-ev="wed">Add to Calendar</button></div>
       <a class="gl" target="_blank" rel="noopener" data-g="wed">or add to Google Calendar</a>
     </div>
   </section>
@@ -394,8 +410,8 @@ input[type=text]:focus{border-color:#c56f4e}
 <footer class="foot">
   <span style="display:block;font-family:'Great Vibes',cursive;font-size:38px;margin-bottom:4px">Thank you</span>
   Your presence will make our day complete
-  <div class="nm" style="margin-top:12px">Surya &amp; Jothika</div>
-  <small>With love, the families of Murugesh – Vijayalakshmi &amp; Govindaraj – Lakshmi</small>
+  <div class="nm" style="margin-top:12px">Suriya &amp; Jyothika</div>
+  <small>With love, the families of Sivakumar – Lakshmi &amp; Chander Sadanah – Seema Sadanah</small>
   <div class="credit"><small>Designed by</small><b>Thugira e-Designs</b></div>
 </footer>
 </div>
@@ -412,8 +428,9 @@ var CONFIG = {
   endpoint: ''    // optional: Google Apps Script / Formspree URL to collect RSVPs
 };
 var PHOTOS = {
-  groom: [],      // e.g. ['photos/Surya1.jpg','photos/Surya2.jpg']
-  bride: []       // e.g. ['photos/lavanya1.jpg','photos/lavanya2.jpg']
+  groom: ['photos/groom1.jpg','photos/groom2.jpg','photos/groom3.jpg'],
+  bride: ['photos/bride1.jpg','photos/bride2.jpg','photos/bride3.jpg'],
+  memories: ['photos/memory1.jpg','photos/memory2.jpg','photos/memory3.jpg','photos/memory4.jpg','photos/memory5.jpg']
 };
 /* ========================== */
 var $=function(s){return document.querySelector(s)};
@@ -484,7 +501,7 @@ new IntersectionObserver(function(es){es.forEach(function(en){
   else if(seen&&en.boundingClientRect.top<0)reveal()})},{threshold:[0,.6]}).observe(card);
 
 /* countdown */
-var target=new Date('2027-02-18T07:00:00+05:30').getTime();
+var target=new Date('2027-12-12T07:00:00+05:30').getTime();
 function tick(){var d=target-Date.now();if(d<=0){$('#cD').textContent=$('#cH').textContent=$('#cM').textContent=$('#cS').textContent='0';return}
   $('#cD').textContent=Math.floor(d/864e5);$('#cH').textContent=Math.floor(d%864e5/36e5);$('#cM').textContent=Math.floor(d%36e5/6e4);$('#cS').textContent=Math.floor(d%6e4/1e3)}
 tick();setInterval(tick,1000);
@@ -492,21 +509,21 @@ tick();setInterval(tick,1000);
 /* photo sliders */
 function slider(id,list,hint){var el=$(id);
   if(!list.length){el.innerHTML='<div class="ph">'+hint+'</div>';return}
-  list.forEach(function(s,i){var im=new Image();im.src=s;im.alt='';if(!i)im.className='a';el.appendChild(im)});
-  if(list.length>1){var k=0,ims=el.querySelectorAll('img');setInterval(function(){ims[k].classList.remove('a');k=(k+1)%ims.length;ims[k].classList.add('a')},3500)}}
-slider('#gF',PHOTOS.groom,'❖');slider('#bF',PHOTOS.bride,'❖');
+  list.forEach(function(s,i){var im=new Image();im.src=s;im.alt='Wedding photo';if(!i)im.className='a';el.appendChild(im)});
+  if(list.length>1){var k=0,ims=el.querySelectorAll('img');setInterval(function(){ims[k].classList.remove('a');k=(k+1)%ims.length;ims[k].classList.add('a')},3000)}}
+slider('#gF',PHOTOS.groom,'Add groom photos');slider('#bF',PHOTOS.bride,'Add bride photos');slider('#mF',PHOTOS.memories,'Add couple memories');
 
 /* map cards */
 var MAPSVG='<svg class="bg" viewBox="0 0 300 160" preserveAspectRatio="xMidYMid slice"><rect width="300" height="160" fill="#f2e3cc"/><g fill="rgba(255,255,255,.55)"><rect x="12" y="10" width="70" height="44" rx="8"/><rect x="214" y="14" width="74" height="36" rx="8"/><rect x="20" y="104" width="62" height="44" rx="8"/><rect x="218" y="100" width="70" height="48" rx="8"/><rect x="118" y="20" width="60" height="26" rx="8"/></g><path d="M-10 128 C70 100 140 146 310 106" stroke="rgba(106,53,23,.14)" stroke-width="16" fill="none"/><g stroke="rgba(255,255,255,.95)" stroke-width="7" fill="none" stroke-linecap="round"><path d="M-5 62 H305"/><path d="M100 -5 V165"/><path d="M200 -5 L240 165"/></g><path class="route" d="M30 150 L100 62 L205 62 L226 120" stroke="rgba(197,111,78,.9)" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>';
 document.querySelectorAll('.map').forEach(function(m){m.innerHTML=MAPSVG+'<div class="pinw"><i class="pr"></i><i class="pr p2"></i><svg class="pinsvg" viewBox="0 0 32 42"><path d="M16 1C8 1 2 7 2 15c0 10 14 26 14 26s14-16 14-26C30 7 24 1 16 1z" fill="#c56f4e" stroke="#fff6ec" stroke-width="1.5"/><circle cx="16" cy="15" r="5.5" fill="#fff6ec"/></svg></div><div class="lbl">Open in Google Maps ↗</div>'});
 
 /* calendar */
-var EV={rec:{t:'Wedding Reception – Surya & Jothika',s:'20270217T123000Z',e:'20270217T153000Z',l:'Malli Resort, Kondarasampalayam, Udumalai Road, Dharapuram',m:'https://maps.app.goo.gl/LWWwTcvPVNpxcMQ37?g_st=ic'},
-        wed:{t:'Wedding – Surya & Jothika',s:'20270218T013000Z',e:'20270218T033000Z',l:'Sri Subramaniya Swamy Temple, Dharapuram',m:'https://maps.app.goo.gl/JFoAHA1eZPXEhNbE8?g_st=ic'}};
+var EV={rec:{t:'Wedding Reception – Suriya & Jyothika',s:'20271211T123000Z',e:'20271211T153000Z',l:'Grand Lotus Convention Hall, Chennai (sample venue)',m:'https://www.google.com/maps/search/?api=1&query=Grand+Lotus+Convention+Hall+Chennai'},
+        wed:{t:'Wedding – Suriya & Jyothika',s:'20271212T013000Z',e:'20271212T033000Z',l:'Sri Venkateswara Kalyana Mandapam, Chennai (sample venue)',m:'https://www.google.com/maps/search/?api=1&query=Sri+Venkateswara+Kalyana+Mandapam+Chennai'}};
 document.querySelectorAll('[data-g]').forEach(function(a){var v=EV[a.dataset.g];
   a.href='https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(v.t)+'&dates='+v.s+'/'+v.e+'&location='+encodeURIComponent(v.l)+'&details='+encodeURIComponent('Directions: '+v.m)});
 document.querySelectorAll('[data-ev]').forEach(function(b){b.addEventListener('click',function(){var v=EV[b.dataset.ev];
-  var ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Invitation//EN','BEGIN:VEVENT','UID:'+v.s+'@Surya-lavanya','DTSTAMP:20261127T000000Z','DTSTART:'+v.s,'DTEND:'+v.e,'SUMMARY:'+v.t,'LOCATION:'+v.l.replace(/,/g,'\\,'),'DESCRIPTION:Directions: '+v.m,'END:VEVENT','END:VCALENDAR'].join('\r\n');
+  var ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Invitation//EN','BEGIN:VEVENT','UID:'+v.s+'@suriya-jyothika','DTSTAMP:20261127T000000Z','DTSTART:'+v.s,'DTEND:'+v.e,'SUMMARY:'+v.t,'LOCATION:'+v.l.replace(/,/g,'\\,'),'DESCRIPTION:Directions: '+v.m,'END:VEVENT','END:VCALENDAR'].join('\r\n');
   var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([ics],{type:'text/calendar'}));a.download=b.dataset.ev+'-invitation.ics';document.body.appendChild(a);a.click();a.remove()})});
 
 /* RSVP */
